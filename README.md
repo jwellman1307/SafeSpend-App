@@ -339,7 +339,7 @@ SpendGuard was built through multiple design and testing iterations. The app sta
   <tr>
     <td align="center">
       <strong>Settings Dark Mode</strong><br>
-      <img src="Development%20Progress/SettingDarkMode.png" width="260">
+      <img src="Development%20Progress/SetttingDarkMode.png" width="260">
     </td>
     <td align="center">
       <strong>Tutorial Setup</strong><br>
