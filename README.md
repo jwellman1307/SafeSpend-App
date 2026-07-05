@@ -6,41 +6,44 @@ The app focuses on one simple question:
 
 > How much can I safely spend before my next paycheck?
 
-SpendGuard helps users track available cash, income sources, upcoming bills, and bills due before the next pay period. It is designed to be simple, readable, and useful for people who want a clear picture of their money without complicated budgeting tools, bank connections, or required logins.
+SpendGuard helps users track available cash, income sources, upcoming bills, expenses, history, and bills due before the next pay period. It is designed to be simple, readable, and useful for people who want a clear picture of their money without complicated budgeting tools, bank connections, or required logins.
 
 ---
 
 ## Project Status
 
-SpendGuard is currently in Google Play closed testing and preparing for production access.
+SpendGuard has been published on the Google Play Store.
 
-The app has completed the required closed testing period with 12 testers, and version 1.1.4 has been released to the closed testing track with additional polish, dark mode support, updated Settings, and refreshed store screenshots.
+The app completed Google Play closed testing, passed the production release process, and is now publicly available for Android users.
 
-The current next step is to wait briefly after the v1.1.4 closed testing update, confirm no new issues are reported, and then apply for Google Play production access.
+Current public release work includes:
+
+- Completed Google Play closed testing requirement
+- Released SpendGuard to production on Google Play
+- Added dark mode support
+- Added Settings screen improvements
+- Added tutorial access from Settings
+- Added privacy policy access from Settings
+- Added app version display
+- Added expense tracking
+- Added history tracking
+- Updated dashboard layout
+- Updated Play Store screenshots with feature captions
+- Updated phone, 7-inch tablet, and 10-inch tablet screenshots
+- Tested the release build on a physical phone
 
 ---
 
 ## Current Release Status
 
-SpendGuard has been uploaded to Google Play Console and released to closed testing.
+Current status: **Published on Google Play**  
+Platform: **Android**  
+Developer: **Tiny Rebellion Studios**  
+Storage model: **Local device storage**  
+Account required: **No**  
+Bank connection required: **No**
 
-Current version: **1.1.4**  
-Current release code: **4**  
-Testing track: **Closed testing - Alpha**  
-Production status: **Preparing to apply for production access**
-
-Recent release work includes:
-
-- Completed Google Play closed testing requirement
-- Released v1.1.4 to closed testing
-- Added dark mode
-- Added Settings screen improvements
-- Added tutorial access from Settings
-- Added privacy policy access from Settings
-- Added app version display
-- Updated Play Store screenshots with feature captions
-- Updated phone, 7-inch tablet, and 10-inch tablet screenshots
-- Tested the updated build on a physical phone
+SpendGuard is now available as a public Android app after completing closed testing and production preparation.
 
 ---
 
@@ -53,12 +56,16 @@ Recent release work includes:
 - Add recurring or one-time bills
 - See bills due before the next paycheck
 - Mark bills as paid
+- Track expenses
+- View spending history
 - View available money per day
 - Edit or delete income sources and bills
 - Update available cash quickly
 - Dark mode support
 - Settings screen
+- Getting started tutorial
 - Tutorial access from Settings
+- Privacy notice
 - Privacy policy access from Settings
 - App version display
 - Local storage with no account required
@@ -79,6 +86,12 @@ SpendGuard includes the following main screens:
 
 - **Bills**  
   Allows users to add, edit, delete, and track recurring or one-time bills.
+
+- **Expenses**  
+  Allows users to log spending and keep track of money leaving the budget.
+
+- **History**  
+  Provides a record of activity so users can review budget changes and spending behavior.
 
 - **Update Cash Available**  
   Lets users quickly update how much money they currently have available.
@@ -116,6 +129,7 @@ SpendGuard was built with a focus on:
 - Clear financial information
 - Minimal setup
 - No required account or login
+- No bank connection
 - Light and dark mode readability
 - A clean app-store-ready user interface
 
@@ -127,7 +141,7 @@ The goal was to create a budgeting tool for users who are focused on managing mo
 
 SpendGuard does not require an account or login.
 
-Budget information such as income, bills, due dates, and cash available is stored locally on the user's device.
+Budget information such as income, bills, expenses, due dates, history, and cash available is stored locally on the user's device.
 
 SpendGuard does not require a bank connection and does not collect banking usernames, passwords, account numbers, or card numbers.
 
@@ -145,6 +159,8 @@ SpendGuard has been tested for:
 - Local data persistence
 - Income add/edit/delete flow
 - Bill add/edit/delete flow
+- Expense tracking behavior
+- History tracking behavior
 - One-time bill behavior
 - Recurring bill behavior
 - Paid bill behavior
@@ -156,6 +172,7 @@ SpendGuard has been tested for:
 - Light mode styling
 - Dark mode styling
 - Settings screen behavior
+- Getting started tutorial behavior
 - Tutorial access from Settings
 - Privacy policy access from Settings
 - Delete confirmation dialogs
@@ -165,6 +182,8 @@ SpendGuard has been tested for:
 - Release build generation
 - Closed testing upload process
 - Google Play closed testing requirement
+- Production release preparation
+- Public Google Play release
 
 ---
 
@@ -183,9 +202,9 @@ SpendGuard has been tested for:
 - Closed testing release created
 - Tester access configured
 - Closed testing requirement completed
-- v1.1.4 update released to closed testing
+- Production access approved
+- Public Play Store release completed
 - Store screenshots updated for phone, 7-inch tablet, and 10-inch tablet layouts
-- Production access application preparation started
 
 ---
 
@@ -243,7 +262,7 @@ SpendGuard has been tested for:
 
 ## Development Progress
 
-SpendGuard was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, paid bill logic, dashboard calculations, settings, dark mode, AdMob integration, privacy policy setup, and Google Play release preparation.
+SpendGuard was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, expense tracking, history tracking, paid bill logic, dashboard calculations, settings, dark mode, AdMob integration, privacy policy setup, closed testing, and public Google Play release.
 
 <table>
   <tr>
@@ -346,19 +365,47 @@ SpendGuard was built through multiple design and testing iterations. The app sta
       <img src="Development%20Progress/TutorialSetup.png" width="260">
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <strong>Getting Started Tutorial</strong><br>
+      <img src="Development%20Progress/GettingStarted.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Privacy Notice</strong><br>
+      <img src="Development%20Progress/PrivacyNotice.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Expenses Screen</strong><br>
+      <img src="Development%20Progress/Expenses.png" width="260">
+    </td>
+    <td align="center">
+      <strong>History Screen</strong><br>
+      <img src="Development%20Progress/History.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Version 1.2.5 Dashboard</strong><br>
+      <img src="Development%20Progress/v1.2.5Dash.png" width="260">
+    </td>
+  </tr>
 </table>
 
 ---
 
 ## Development Summary
 
-SpendGuard was created as a practical Android app focused on solving a simple budgeting problem. The first version went through multiple rounds of layout changes, naming changes, testing, and release preparation before being uploaded to Google Play closed testing.
+SpendGuard was created as a practical Android app focused on solving a simple budgeting problem. The first version went through multiple rounds of layout changes, naming changes, testing, closed testing, production review, and public release preparation before becoming available on Google Play.
 
 The project includes:
 
 - A full Android app built with Kotlin and Jetpack Compose
 - Local data storage
 - Income and bill management
+- Expense tracking
+- History tracking
 - Pay-period based dashboard calculations
 - Paid and overdue bill handling
 - Dark mode support
@@ -367,25 +414,27 @@ The project includes:
 - AdMob banner support
 - Privacy policy setup
 - Google Play closed testing release
+- Google Play production release
 - Updated Play Store screenshots
-- Production access preparation
+- Public Android app listing
 
 ---
 
 ## Production Readiness
 
-SpendGuard has completed closed testing requirements and is preparing for production access on Google Play.
+SpendGuard completed its production readiness process and has been published on Google Play.
 
-Before applying for production, the latest v1.1.4 closed testing build was tested on a physical phone and reviewed for visual polish, dark mode behavior, Settings functionality, privacy policy access, tutorial access, and app flow stability.
+Before public release, the app was tested on a physical phone and reviewed for visual polish, dark mode behavior, Settings functionality, privacy policy access, tutorial access, dashboard calculations, and app flow stability.
 
-Current production readiness status:
+Production readiness completed:
 
 - Closed testing completed
 - Tester access configured
-- v1.1.4 released to closed testing
 - Store screenshots updated
 - Physical phone test completed
-- Production access application pending
+- Privacy policy published
+- Production access approved
+- Google Play production release completed
 
 ---
 
