@@ -12,14 +12,14 @@ SpendGuard helps users track available cash, income sources, upcoming bills, exp
 
 ## Project Status
 
-SpendGuard has been published on the Google Play Store.
+SpendGuard is published on the Google Play Store.
 
-The app completed Google Play closed testing, passed the production release process, and is now publicly available for Android users.
+The app completed Google Play closed testing, passed production review, and is now publicly available for Android users.
 
 Current public release work includes:
 
+- Published SpendGuard to the Google Play Store
 - Completed Google Play closed testing requirement
-- Released SpendGuard to production on Google Play
 - Added dark mode support
 - Added Settings screen improvements
 - Added tutorial access from Settings
@@ -43,7 +43,7 @@ Storage model: **Local device storage**
 Account required: **No**  
 Bank connection required: **No**
 
-SpendGuard is now available as a public Android app after completing closed testing and production preparation.
+SpendGuard is now available as a public Android app after completing closed testing, production preparation, and Google Play release approval.
 
 ---
 
@@ -88,7 +88,7 @@ SpendGuard includes the following main screens:
   Allows users to add, edit, delete, and track recurring or one-time bills.
 
 - **Expenses**  
-  Allows users to log spending and keep track of money leaving the budget.
+  Allows users to log spending and track money leaving the budget.
 
 - **History**  
   Provides a record of activity so users can review budget changes and spending behavior.
@@ -397,7 +397,7 @@ SpendGuard was built through multiple design and testing iterations. The app sta
 
 ## Development Summary
 
-SpendGuard was created as a practical Android app focused on solving a simple budgeting problem. The first version went through multiple rounds of layout changes, naming changes, testing, closed testing, production review, and public release preparation before becoming available on Google Play.
+SpendGuard was created as a practical Android app focused on solving a simple budgeting problem. The first version went through multiple rounds of layout changes, naming changes, testing, closed testing, production review, and public release before becoming available on Google Play.
 
 The project includes:
 
