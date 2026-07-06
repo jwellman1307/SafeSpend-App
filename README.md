@@ -28,6 +28,10 @@ Current public release work includes:
 - Added expense tracking
 - Added history tracking
 - Updated dashboard layout
+- Added Google Play Billing setup
+- Added foundation for a future one-time Remove Ads purchase
+- Added Restore Purchases option in Settings
+- Added purchase-state logic to hide ads after Remove Ads is purchased
 - Updated Play Store screenshots with feature captions
 - Updated phone, 7-inch tablet, and 10-inch tablet screenshots
 - Tested the release build on a physical phone
@@ -44,6 +48,8 @@ Account required: **No**
 Bank connection required: **No**
 
 SpendGuard is now available as a public Android app after completing closed testing, production preparation, and Google Play release approval.
+
+The current release also prepares the app for future in-app purchase support through Google Play Billing. The planned first one-time product is a Remove Ads option.
 
 ---
 
@@ -71,6 +77,9 @@ SpendGuard is now available as a public Android app after completing closed test
 - Local storage with no account required
 - Simple dashboard-first design
 - Banner ad support through Google AdMob
+- Google Play Billing foundation
+- Restore Purchases option
+- Future one-time Remove Ads support
 
 ---
 
@@ -103,7 +112,7 @@ SpendGuard includes the following main screens:
   Allows users to update an existing bill.
 
 - **Settings**  
-  Allows users to toggle dark mode, reopen the getting started tutorial, view the privacy policy, and see the current app version.
+  Allows users to toggle dark mode, reopen the getting started tutorial, view the privacy policy, restore purchases, access the future Remove Ads option, rate the app, and see the current app version.
 
 ---
 
@@ -114,6 +123,7 @@ SpendGuard includes the following main screens:
 - Android Studio
 - Room / local device storage
 - Google AdMob
+- Google Play Billing
 - Google Play Console
 
 ---
@@ -145,8 +155,27 @@ Budget information such as income, bills, expenses, due dates, history, and cash
 
 SpendGuard does not require a bank connection and does not collect banking usernames, passwords, account numbers, or card numbers.
 
+SpendGuard may display banner ads through Google AdMob. Manually entered budgeting information is not shared with advertisers by SpendGuard.
+
 Privacy Policy:  
 https://sites.google.com/view/trs-safespend-privacy-policy
+
+---
+
+## Monetization
+
+SpendGuard currently supports banner ad integration through Google AdMob.
+
+The current release adds the foundation for Google Play Billing and prepares the app for a future one-time Remove Ads purchase.
+
+Planned in-app product:
+
+- **Remove Ads**
+  - Product ID: `remove_ads`
+  - Type: One-time purchase
+  - Purpose: Permanently removes banner ads from SpendGuard for the purchasing Google account
+
+The Remove Ads option depends on the Google Play Console product being created and activated before it becomes available to users.
 
 ---
 
@@ -179,6 +208,9 @@ SpendGuard has been tested for:
 - App version display
 - Physical phone testing
 - AdMob banner integration
+- Google Play Billing setup
+- Remove Ads purchase flow preparation
+- Restore Purchases option
 - Release build generation
 - Closed testing upload process
 - Google Play closed testing requirement
@@ -196,6 +228,10 @@ SpendGuard has been tested for:
 - Banner ad integrated
 - Test ads verified
 - Live ad configuration tested
+- Google Play Billing dependency added
+- Billing permission added to Android manifest
+- Remove Ads product ID added in app code
+- Restore Purchases option added to Settings
 - Signed Android App Bundle created
 - Release key created and backed up
 - Google Play Console account created
@@ -205,6 +241,31 @@ SpendGuard has been tested for:
 - Production access approved
 - Public Play Store release completed
 - Store screenshots updated for phone, 7-inch tablet, and 10-inch tablet layouts
+
+---
+
+## Latest Release Notes
+
+### SpendGuard v1.3.6
+
+This release prepares SpendGuard for future in-app purchase support through Google Play Billing.
+
+#### Added
+
+- Google Play Billing setup
+- Billing permission in Android manifest
+- Remove Ads product ID support
+- Restore Purchases option in Settings
+- Purchase handling for the planned Remove Ads product
+- Purchase acknowledgement logic
+- Ad banner visibility tied to Remove Ads purchase state
+
+#### Notes
+
+- The planned Remove Ads product must be created and activated in Google Play Console before users can purchase it.
+- The core budgeting experience remains the same.
+- Budgeting data remains stored locally on the user's device.
+- No account or bank connection is required.
 
 ---
 
@@ -262,7 +323,7 @@ SpendGuard has been tested for:
 
 ## Development Progress
 
-SpendGuard was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, expense tracking, history tracking, paid bill logic, dashboard calculations, settings, dark mode, AdMob integration, privacy policy setup, closed testing, and public Google Play release.
+SpendGuard was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, expense tracking, history tracking, paid bill logic, dashboard calculations, settings, dark mode, AdMob integration, privacy policy setup, closed testing, public Google Play release, and Google Play Billing preparation.
 
 <table>
   <tr>
@@ -412,6 +473,9 @@ The project includes:
 - Settings screen
 - Tutorial and privacy access
 - AdMob banner support
+- Google Play Billing setup
+- Restore Purchases support
+- Planned one-time Remove Ads product
 - Privacy policy setup
 - Google Play closed testing release
 - Google Play production release
@@ -435,6 +499,7 @@ Production readiness completed:
 - Privacy policy published
 - Production access approved
 - Google Play production release completed
+- Google Play Billing preparation added
 
 ---
 
