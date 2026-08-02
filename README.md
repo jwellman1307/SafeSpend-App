@@ -143,11 +143,6 @@ Between Checks is designed around local-first budgeting.
 - Income, bills, expenses, dates, history, and cash available are stored locally on the user's device
 - The app does not request banking usernames, passwords, account numbers, or card numbers
 
-The app may display banner ads through Google AdMob. Manually entered budgeting information is not shared with advertisers by Between Checks.
-
-Privacy Policy:  
-https://sites.google.com/view/trs-safespend-privacy-policy
-
 ---
 
 ## Built With
@@ -172,21 +167,6 @@ Between Checks was built around the following principles:
 - **Practical:** The app supports real decisions users make during a pay period
 - **Readable:** The interface is designed for quick scanning in both light and dark mode
 - **Low setup:** Users can begin with their current cash, next paycheck, bills, and expenses
-
----
-
-## Monetization
-
-The project includes support for Google AdMob banner ads and Google Play Billing.
-
-A planned one-time purchase will allow users to remove ads permanently for the purchasing Google account.
-
-Planned product:
-
-- **Remove Ads**
-  - Product ID: `remove_ads`
-  - Type: One-time purchase
-  - Purpose: Permanently removes banner ads
 
 ---
 
@@ -229,7 +209,7 @@ The project demonstrates:
 - Expense history and category breakdowns
 - Responsive light and dark mode interfaces
 - Google Play release preparation
-- AdMob and Google Play Billing integration
+- Google Play Billing integration
 - Iterative product design based on a defined user problem
 
 ---
